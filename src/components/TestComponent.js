@@ -87,5 +87,5 @@ render() {
 } 
 
 export default GoogleApiWrapper({
-apiKey: ('AIzaSyCdYWVKDZM0bzSslqc2dx61qITC3aE9KVU')
+apiKey: (process.env.GOOGLE_MAPS_API)
 })(TestComponent);
